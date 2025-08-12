@@ -10,7 +10,7 @@
 // "WARNING";
 // "ERROR";
 
-int main(int argc, char const *argv[])
+int main()
 {
 	Harl myHarl;
 
