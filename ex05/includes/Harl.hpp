@@ -12,6 +12,9 @@ class Harl {
 		void error( void );
 	public :
 		void complain( std::string level );
+		std::string	levels[4];
+		Harl();
+		~Harl();
 
 
 };

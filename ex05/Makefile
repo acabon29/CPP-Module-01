@@ -11,6 +11,7 @@ NAME ?=  SedIsForLosers
 ###############    Files    ###############
 
 SRC_GENERAL =	main \
+				Harl \
 
 SRC	= $(addprefix $(SRC_DIR)/, $(addsuffix .cpp,	$(SRC_GENERAL) \
 ))
