@@ -20,7 +20,7 @@ SRC	= $(addprefix $(SRC_DIR)/, $(addsuffix .cpp,	$(SRC_GENERAL) \
 
 OBJS	:= $(patsubst $(SRC_DIR)/%.cpp, $(OBJS_DIR)/%.o, $(SRC))
 
-###############    Comilation    ###############
+###############    Compilation    ###############
 all: $(NAME)
 
 $(NAME): $(OBJS)

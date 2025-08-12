@@ -10,10 +10,9 @@
 // "WARNING";
 // "ERROR";
 
-int main()
+int main(int argc, char const *argv[])
 {
 	Harl myHarl;
-	// Harl *myHarl = new Harl();
 
 	std::cout << "DEBUG" << std::endl;
 	myHarl.complain("DEBUG");

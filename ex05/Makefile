@@ -6,7 +6,7 @@ CFLAGS = -Wall -Wextra -Werror -g -std=c++98 -I./includes -I./libs -Ofast
 SRC_DIR = ./srcs
 OBJS_DIR = ./objs
 OUTPUT_DIR ?= .
-NAME ?=  SedIsForLosers
+NAME ?=  Harl
 
 ###############    Files    ###############
 
@@ -18,7 +18,7 @@ SRC	= $(addprefix $(SRC_DIR)/, $(addsuffix .cpp,	$(SRC_GENERAL) \
 
 OBJS	:= $(patsubst $(SRC_DIR)/%.cpp, $(OBJS_DIR)/%.o, $(SRC))
 
-###############    Comilation    ###############
+###############    Compilation    ###############
 all: $(NAME)
 
 $(NAME): $(OBJS)
